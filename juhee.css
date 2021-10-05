@@ -9,6 +9,13 @@ html {
   display: flex;
   flex-direction: column;
 }
+.main2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0e1c36;
+  display: flex;
+  flex-direction: column;
+}
 .juhee_row {
   display: flex;
 }
@@ -35,8 +42,16 @@ html {
   background-color: #ffff;
 }
 .right {
-  margin: 25px 126px 25px 25px;
+  margin: 25px;
+  border-radius: 22px;
+  flex-basis: 900px;
+  background-color: #ffff;
+}
+
+.right2 {
+  margin: 25px 126px 25px 0px;
   border-radius: 22px;
   flex-grow: 1;
+  height: 400px;
   background-color: #ffff;
 }
