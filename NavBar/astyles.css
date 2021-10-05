@@ -9,6 +9,13 @@ html {
   display: flex;
   flex-direction: column;
 }
+.main2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0e1c36;
+  display: flex;
+  flex-direction: column;
+}
 .juhee_row {
   display: flex;
 }
@@ -31,15 +38,69 @@ html {
 .left {
   margin: 25px 0 25px 126px;
   border-radius: 22px;
-  flex-basis: 199px;
+  flex-basis: 20%;
   background-color: #ffff;
 }
 .right {
-  margin: 25px 126px 25px 25px;
+  margin: 25px;
   border-radius: 22px;
-  flex-grow: 1;
+  flex-basis: 70%;
   background-color: #ffff;
 }
+.right1 {
+  margin: 25px 126px 25px 25px;
+  border-radius: 22px;
+  flex-basis: 70%;
+  background-color: #ffff;
+}
+.right {
+  margin: 25px;
+  border-radius: 22px;
+  flex-basis: 70%;
+  background-color: #ffff;
+}
+
+.right2 {
+  margin: 25px 126px 25px 0px;
+  border-radius: 22px;
+  flex-basis: 300px;
+  height: 40%;
+  background-color: #ffff;
+}
+
+
+/*
+Min
+*/
+
+#min_div {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-evenly;
+  text-align: left;
+  padding-left: 25px;
+}
+
+#min_categories{
+  font-size: 26px;
+  
+}
+
+#min_menu:visited{
+  color:#BABABA;
+}
+
+#min_menu:hover{
+  color:#000000;
+}
+
+#min_menu:active{
+  color: #000000;
+}
+
+
+/*Nav Bar*/
 
 .a{
     font-family: Arial, Helvetica, sans-serif;
@@ -53,4 +114,6 @@ html {
     width: 50px;
     height: 50px;
     z-index: 1;
+
+    align-items: right;
 }

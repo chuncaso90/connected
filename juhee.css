@@ -98,3 +98,19 @@ Min
 #min_menu:active{
   color: #000000;
 }
+
+/*Nav Bar*/
+
+.a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  text-decoration: none;
+
+}
+
+#avatar{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+}
