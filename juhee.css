@@ -68,13 +68,12 @@ html {
   background-color: #ffff;
 }
 
-
 /*
 Min
 */
 
 #min_div {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   justify-content: space-evenly;
@@ -82,19 +81,18 @@ Min
   padding-left: 25px;
 }
 
-#min_categories{
+#min_categories {
   font-size: 26px;
-  
 }
 
-#min_menu:visited{
-  color:#BABABA;
+#min_menu:visited {
+  color: #bababa;
 }
 
-#min_menu:hover{
-  color:#000000;
+#min_menu:hover {
+  color: #000000;
 }
 
-#min_menu:active{
+#min_menu:active {
   color: #000000;
 }
