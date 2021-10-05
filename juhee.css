@@ -38,23 +38,36 @@ html {
 .left {
   margin: 25px 0 25px 126px;
   border-radius: 22px;
-  flex-basis: 199px;
+  flex-basis: 20%;
   background-color: #ffff;
 }
 .right {
   margin: 25px;
   border-radius: 22px;
-  flex-basis: 900px;
+  flex-basis: 70%;
+  background-color: #ffff;
+}
+.right1 {
+  margin: 25px 126px 25px 25px;
+  border-radius: 22px;
+  flex-basis: 70%;
+  background-color: #ffff;
+}
+.right {
+  margin: 25px;
+  border-radius: 22px;
+  flex-basis: 70%;
   background-color: #ffff;
 }
 
 .right2 {
   margin: 25px 126px 25px 0px;
   border-radius: 22px;
-  flex-grow: 1;
-  height: 400px;
+  flex-basis: 300px;
+  height: 40%;
   background-color: #ffff;
 }
+
 
 /*
 Min
