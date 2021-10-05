@@ -1,0 +1,56 @@
+body,
+html {
+  margin: 0;
+}
+#juhee_main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0e1c36;
+  display: flex;
+  flex-direction: column;
+}
+.juhee_row {
+  display: flex;
+}
+
+.header {
+  flex-basis: 80px;
+  background-color: #ffff;
+  border-radius: 0 0 20px 20px;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.juheecol {
+  display: flex;
+  flex-direction: column;
+}
+
+.left {
+  margin: 25px 0 25px 126px;
+  border-radius: 22px;
+  flex-basis: 199px;
+  background-color: #ffff;
+}
+.right {
+  margin: 25px 126px 25px 25px;
+  border-radius: 22px;
+  flex-grow: 1;
+  background-color: #ffff;
+}
+
+.a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-decoration: none;
+
+}
+
+#avatar{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
