@@ -55,3 +55,33 @@ html {
   height: 400px;
   background-color: #ffff;
 }
+
+/*
+Min
+*/
+
+#min_div {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-evenly;
+  text-align: left;
+  padding-left: 25px;
+}
+
+#min_categories{
+  font-size: 26px;
+  
+}
+
+#min_menu:visited{
+  color:#BABABA;
+}
+
+#min_menu:hover{
+  color:#000000;
+}
+
+#min_menu:active{
+  color: #000000;
+}
