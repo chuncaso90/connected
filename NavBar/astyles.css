@@ -178,6 +178,10 @@ a{
   border: 0;
 }
 
+form.search button{
+  color: #4D5674;
+  font-size: 15px;
+}
 
 button{
   border: 0;
