@@ -55,6 +55,22 @@ html {
 
 .michael_xButton{
   display: flex;
+  flex-direction: row;
+  /* flex-grow: 1; */
+  min-width: -moz-available;
+
+}
+
+.michael_x{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+  /* margin-bottom: 0rem; */
+  border-radius: 100%;
+  min-width: 2rem;
+  min-height: 2rem;
 }
 
 .michael_container{
