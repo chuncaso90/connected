@@ -1,11 +1,19 @@
 body,
 html {
   margin: 0;
+  max-width: 100vw;
 }
 #juhee_main {
-  width: 100vw;
-  height: 100vh;
+  max-width: 100vw;
+  min-height: 100vh;
   background-color: #0e1c36;
+  display: flex;
+  flex-direction: column;
+}
+#juhee_main2 {
+  max-width: 100vw;
+  min-height: 100vh;
+  background-color: #3c91e6;
   display: flex;
   flex-direction: column;
 }
@@ -38,7 +46,7 @@ html {
 .left {
   margin: 25px 0 25px 126px;
   border-radius: 22px;
-  flex-basis: 20%;
+  flex-basis: 13%;
   background-color: #ffff;
 }
 .right {
@@ -68,13 +76,12 @@ html {
   background-color: #ffff;
 }
 
-
 /*
 Min
 */
 
 #min_div {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   justify-content: space-evenly;
@@ -82,23 +89,23 @@ Min
   padding-left: 25px;
 }
 
-#min_categories{
+#min_categories {
   font-size: 26px;
-  
 }
 
-#min_menu:visited{
-  color:#BABABA;
+#min_menu:visited {
+  color: #bababa;
 }
 
-#min_menu:hover{
-  color:#000000;
-}
-
-#min_menu:active{
+#min_menu:hover {
   color: #000000;
 }
 
+#min_menu:active {
+  color: #000000;
+}
+
+<<<<<<< HEAD
 /*Nav Bar*/
 
 .a{
@@ -113,4 +120,161 @@ Min
   width: 50px;
   height: 50px;
   z-index: 1;
+=======
+/*Alicia Coding*/
+.aliciaheadings {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+  justify-content: center;
+  align-items: left;
+  margin-left: 10%;
+}
+
+.aliciahome {
+  color: grey;
+  font-size: 20px;
+  text-decoration-line: underline;
+}
+
+.aliciatrendingposts {
+  display: flex;
+  color: grey;
+  font-size: 26px;
+}
+
+.aliciaalldivs {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.aliciadiv1 {
+  display: flex;
+
+  width: 80%;
+  height: 166px;
+  border: gray solid 0.5px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.aliciacontleft {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 166px;
+}
+.aliciacontright {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 166px;
+}
+
+.aliciaimgs {
+  display: flex;
+  align-items: center;
+
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+
+.aliciap {
+  width: 80%;
+}
+
+.aliciah3 {
+  width: 80%;
+}
+
+.aliciathumbsup {
+  width: 80%;
+}
+
+.aliciacontright2 {
+  margin-top: 20px;
+  width: 10%;
+}
+
+/*Juhee */
+.juheediv1 {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 166px;
+  border: gray solid 0.5px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.michael_page_avatar {
+  padding: 0 2% 0 2%;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.michael_avatar_img {
+  border-radius: 100%;
+  min-width: 3rem;
+  min-height: 3rem;
+  max-width: 3rem;
+  max-height: 3rem;
+}
+.juhee_leftcont {
+  display: flex;
+  flex-direction: row;
+}
+.michael_page_avatar_container01 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.michael_page_avatar_container01 h3 {
+  margin: 0 0 0 1rem;
+}
+.michael_page_avatar_container01 h5 {
+  margin: 0 0 0 1rem;
+}
+
+.michael_avatar_name {
+  margin: 0.5rem;
+}
+
+.michael_avatar_postDate {
+  margin: 0.5rem;
+}
+
+.michael_page_avatar_container02 {
+  display: flex;
+  min-height: 65px;
+}
+
+.michael_avatar_detail {
+  margin: 0.55rem;
+}
+.michael_details_desc {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2% 0 2%;
+  flex-grow: 1;
+}
+.michael_details_desc p {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.juheethumbsup {
+  margin-top: 0.5rem;
+}
+.aliciatoparrow {
+  margin-top: 0.5rem;
+>>>>>>> 88da139e090430bb9ea083e3a62fd6de3d0f2629
 }
