@@ -278,3 +278,89 @@ Min
   margin-top: 0.5rem;
 >>>>>>> 88da139e090430bb9ea083e3a62fd6de3d0f2629
 }
+
+/* ------------ GLIAN'S CODE ----------- */
+
+#GlianMain {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 25px;
+  width: 275px;
+  height: 357px;
+  border-radius: 25px;
+  padding: 30px;
+}
+
+#HashtagsGlian {
+  color: #333333;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+#LikeNCommentGlian {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 70px;
+}
+
+.Text1Glian {
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #121A35;
+  position: relative;
+  bottom: 6px;
+}
+
+
+.UsernameGlian {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+}
+
+.BoldGlian {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: #333333;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.TextGlian {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333333;
+  margin: 0;
+  flex-grow: 2;
+}
+
+.hearts {
+  flex-grow: 1;
+  height: 20px;
+  width: 15px;
+}
+
+.stroke {
+  width: 0;
+  height: 20px;
+}
+
+.CommentGlian {
+  margin-top: 40px;
+
+}
+
+.commentBox {
+  position: relative;
+  bottom:8px;
+  left: 15px;
+  width: 200px;
+  height: 25px;
+  border-radius: 20px;
+}
