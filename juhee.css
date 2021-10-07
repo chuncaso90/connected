@@ -713,10 +713,15 @@ Min
   .header {
     min-height: 10vh;
     flex-basis: 80px;
-    background-color: #fad;
+    background-color: #fff;
     border-radius: 0 0 20px 20px;
   }
 
+  #juhee_main2 {
+    background-color: #3c91E6;
+    
+  }
+  
   .nav_content2 {
     display: none;
   }
@@ -739,10 +744,12 @@ Min
 
   #min_categories {
     text-align: center;
+    
   }
 
   #min_menu {
     text-align: center;
+
   }
 
   .aliciadiv1 {
@@ -811,11 +818,13 @@ Min
 
   .juheediv1 {
     border-style: solid;
+    background-color: #fff;
     border-radius: 15px;
     border-color: lightblue;
     border-width: thin;
     margin-bottom: 5%;
     padding: 5px;
+    margin:3%
   }
 
   .juheethumbsup {
