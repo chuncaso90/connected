@@ -3,6 +3,8 @@ html {
   margin: 0;
   max-width: 100vw;
 }
+
+@media only screen and (min-width:401px) {
 #juhee_main {
   max-width: 100vw;
   min-height: 100vh;
@@ -63,12 +65,15 @@ html {
   border-radius: 22px;
   flex-basis: 70%;
   background-color: #ffff;
+  /* 확인 필ㅛ */
+  height: 750px;
 }
 .right {
   margin: 25px;
   border-radius: 22px;
   flex-basis: 70%;
   background-color: #ffff;
+  
 }
 
 .right2 {
@@ -77,6 +82,7 @@ html {
   flex-basis: 300px;
   height: 40%;
   background-color: #ffff;
+  
 }
 
 /*
@@ -90,6 +96,8 @@ Min
   justify-content: space-evenly;
   text-align: left;
   padding-left: 25px;
+  min-height: 750px;
+
 }
 
 #min_categories {
@@ -107,6 +115,102 @@ Min
 #min_menu:active {
   color: #000000;
 }
+
+/* Arielle Coding */
+#nav_content1{
+  width: 30%;
+
+}
+
+#nav_content2{
+  width: 60%;
+  flex-direction: row;
+  justify-content: flex-end;
+
+} 
+
+.navLinks{
+  padding: 20px;
+}
+
+
+a{
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+}
+
+#logo{
+  width: 35px;
+  height:35px;
+  padding: 10px;
+  margin-bottom: -15px;
+}
+
+#app_title{
+  font-size: 26px;
+  color: #4D5674; 
+  margin-left: -50px;
+}
+
+#home{
+  color: #4D5674;
+}
+
+#petitions{
+  color: #538BE2; 
+}
+
+
+#avatar{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+
+    margin-left: -150px;
+    margin-top: 10px;
+}
+
+
+.search{
+  width: 600px;
+  height: 25px;
+
+  border: 2px solid #4D5674; 
+
+  margin-left: -800px;
+  margin-top: 20px;
+  position: absolute;
+}
+
+.searchbar{
+  width: 500px;
+  border-radius: 8px 0 0 8px;
+  border: 0;
+}
+
+form.search button{
+  color: #4D5674;
+  font-size: 15px;
+}
+
+button{
+  border: 0;
+  padding: 0;
+  width: 70px;
+
+  cursor: pointer;
+  height: 25px;
+
+  color: #4D5674;
+  background: transparent; 
+  font-family: 'DM Sans', sans-serif;
+  border-radius: 0 8px 8px 0;
+  border-left: 2px solid #4D5674;
+
+}
+
+
 
 /*Alicia Coding*/
 .aliciaheadings {
@@ -152,23 +256,26 @@ Min
 .aliciacontleft {
   display: flex;
   flex-direction: column;
-  width: 20%;
+  min-width: 100px;
   height: 166px;
+  justify-content: center;
+  text-align:center;
+
 }
 .aliciacontright {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   width: 80%;
   height: 166px;
+  margin-left: 15px;
+  overflow: auto;
 }
 
 .aliciaimgs {
   display: flex;
-  align-items: center;
+  border-radius: 50px;
 
-  position: relative;
-  top: 50px;
-  left: 20px;
 }
 
 .aliciap {
@@ -181,10 +288,12 @@ Min
 
 .aliciathumbsup {
   width: 80%;
+  margin-bottom: 5px;
 }
 
 .aliciacontright2 {
-  margin-top: 20px;
+  display:flex;
+  justify-content: flex-start;
   width: 10%;
 }
 
@@ -505,3 +614,101 @@ button{
 }
 
 /*End of Nav Bar*/
+}
+
+@media only screen and (max-width:400px) {
+
+  .juhee_row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .juhee_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+  .header {
+    min-height: 10vh;
+    flex-basis: 80px;
+    background-color: #fad;
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .nav_content2 {
+    display:none;
+  }
+  
+  #app_title{
+    display:none;
+  }
+  
+  #home {
+    display:none;
+  }
+  
+  #petitions {
+    display:none;
+  }
+  
+  #min_div {
+    align-items: center;
+  }
+  
+  #min_categories {
+    text-align: center;
+  }
+  
+  #min_menu {
+    text-align: center;
+  
+  }
+  
+  .aliciadiv1 {
+    display:flex;
+    flex-direction: row;
+    padding: 5%;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: peachpuff;
+    border-width: thin;
+    margin-bottom: 5%;
+  }
+  .aliciacontleft {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    /* height: 166px; */
+    justify-content: center;
+    text-align:center;
+  
+  }
+  
+  .aliciacontright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* height: 166px; */
+    margin-left: 15%;
+    overflow: auto;
+  }
+  
+  .aliciap {
+    display:none;
+  }
+  
+  .aliciacontright2{
+    display:none;
+  }
+
+  .aliciaimgs {
+    display: flex;
+    border-radius: 50px;
+  
+  }
+  
+  }
