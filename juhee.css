@@ -697,7 +697,7 @@ Min
 
 /* min responsive */
 @media only screen and (max-width: 400px) {
-  .juhee_row {
+  .juheemain .juhee_row {
     display: flex;
     flex-direction: column;
     align-items: center;
