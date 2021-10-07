@@ -1,0 +1,508 @@
+body,
+html {
+  margin: 0;
+  max-width: 100vw;
+}
+#juhee_main {
+  max-width: 100vw;
+  min-height: 100vh;
+  background-color: #0e1c36;
+  display: flex;
+  flex-direction: column;
+}
+#juhee_main2 {
+  max-width: 100vw;
+  min-height: 100vh;
+  background-color: #3c91e6;
+  display: flex;
+  flex-direction: column;
+}
+.main2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0e1c36;
+  display: flex;
+  flex-direction: column;
+}
+.juhee_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.header {
+  flex-basis: 80px;
+  background-color: #ffff;
+  border-radius: 0 0 20px 20px;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.juheecol {
+  display: flex;
+  flex-direction: column;
+}
+
+.left {
+  margin: 25px 0 25px 126px;
+  border-radius: 22px;
+  flex-basis: 13%;
+  background-color: #ffff;
+}
+.right {
+  margin: 25px;
+  border-radius: 22px;
+  flex-basis: 70%;
+  background-color: #ffff;
+}
+.right1 {
+  margin: 25px 126px 25px 25px;
+  border-radius: 22px;
+  flex-basis: 70%;
+  background-color: #ffff;
+}
+.right {
+  margin: 25px;
+  border-radius: 22px;
+  flex-basis: 70%;
+  background-color: #ffff;
+}
+
+.right2 {
+  margin: 25px 126px 25px 0px;
+  border-radius: 22px;
+  flex-basis: 300px;
+  height: 40%;
+  background-color: #ffff;
+}
+
+/*
+Min
+*/
+
+#min_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-evenly;
+  text-align: left;
+  padding-left: 25px;
+}
+
+#min_categories {
+  font-size: 26px;
+}
+
+#min_menu:visited {
+  color: #bababa;
+}
+
+#min_menu:hover {
+  color: #000000;
+}
+
+#min_menu:active {
+  color: #000000;
+}
+
+/*Alicia Coding*/
+.aliciaheadings {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+  justify-content: center;
+  align-items: left;
+  margin-left: 10%;
+}
+
+.aliciahome {
+  color: grey;
+  font-size: 20px;
+  text-decoration-line: underline;
+}
+
+.aliciatrendingposts {
+  display: flex;
+  color: grey;
+  font-size: 26px;
+}
+
+.aliciaalldivs {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.aliciadiv1 {
+  display: flex;
+
+  width: 80%;
+  height: 166px;
+  border: gray solid 0.5px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.aliciacontleft {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 166px;
+}
+.aliciacontright {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 166px;
+}
+
+.aliciaimgs {
+  display: flex;
+  align-items: center;
+
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+
+.aliciap {
+  width: 80%;
+}
+
+.aliciah3 {
+  width: 80%;
+}
+
+.aliciathumbsup {
+  width: 80%;
+}
+
+.aliciacontright2 {
+  margin-top: 20px;
+  width: 10%;
+}
+
+/*Juhee */
+.juheediv1 {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 166px;
+  border: gray solid 0.5px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.michael_page_avatar {
+  padding: 0 2% 0 2%;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.michael_avatar_img {
+  border-radius: 100%;
+  min-width: 3rem;
+  min-height: 3rem;
+  max-width: 3rem;
+  max-height: 3rem;
+}
+.juhee_leftcont {
+  display: flex;
+  flex-direction: row;
+}
+.michael_page_avatar_container01 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.michael_page_avatar_container01 h3 {
+  margin: 0 0 0 1rem;
+}
+.michael_page_avatar_container01 h5 {
+  margin: 0 0 0 1rem;
+}
+
+.michael_avatar_name {
+  margin: 0.5rem;
+}
+
+.michael_avatar_postDate {
+  margin: 0.5rem;
+}
+
+.michael_page_avatar_container02 {
+  display: flex;
+  min-height: 65px;
+}
+
+.michael_avatar_detail {
+  margin: 0.55rem;
+}
+.michael_details_desc {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2% 0 2%;
+  flex-grow: 1;
+}
+.michael_details_desc p {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.juheethumbsup {
+  margin-top: 0.5rem;
+}
+.aliciatoparrow {
+  margin-top: 0.5rem;
+
+}
+/* ------------ GLIAN'S CODE ----------- */
+
+#GlianMain {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 1.5rem 3rem 0 0;
+  width: 275px;
+  height: 357px;
+  border-radius: 25px;
+  padding: 30px;
+}
+
+#HashtagsGlian {
+  color: #333333;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+#LikeNCommentGlian {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 70px;
+}
+
+.Text1Glian {
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #121a35;
+  position: relative;
+  bottom: 6px;
+}
+
+.UsernameGlian {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+}
+
+.BoldGlian {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: #333333;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.TextGlian {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333333;
+  margin: 0;
+  flex-grow: 2;
+}
+
+.hearts {
+  flex-grow: 1;
+  height: 20px;
+  width: 15px;
+}
+
+.stroke {
+  width: 0;
+  height: 20px;
+}
+
+.CommentGlian {
+  margin-top: 40px;
+}
+
+.commentBox {
+  position: relative;
+  bottom: 8px;
+  left: 15px;
+  width: 200px;
+  height: 25px;
+  border-radius: 20px;
+}
+
+/* ---------------- Login Page CSS ---------------- */
+
+.LoginBody {
+  margin: 0;
+  background-color: #0e1c36;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+#LoginMain{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 30px;
+  width: 400px;
+  height: 500px;
+  border-radius: 30px;
+}
+
+.ConnectedGlian {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4D5674;
+}
+
+.labelLogin {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.spaceGlian {
+  height: 50px;
+}
+
+.inputLogin {
+  width: 300px;
+  height: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #C4C4C4;
+}
+
+.passwordLogin {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.buttonLogin {
+  width: 250px;
+  height: 40px;
+  background-color: #0e1c36;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+/* -------- End of Login --------- */
+
+/* Start of Nav Bar */ 
+
+#nav_content1{
+  width: 30%;
+}
+
+#nav_content2{
+  width: 60%;
+  flex-direction: row;
+  justify-content: flex-end;
+
+} 
+
+.navLinks{
+  padding: 20px;
+}
+
+a{
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+}
+
+#logo{
+  width: 35px;
+  height:35px;
+  padding: 10px;
+
+  margin-bottom: -15px;
+}
+
+#app_title{
+  font-size: 26px;
+  color: #4D5674; 
+
+  margin-left: -50px;
+}
+
+#home{
+  color: #4D5674;
+}
+
+#petitions{
+  color: #538BE2; 
+}
+
+
+#avatar{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+
+    margin-left: -150px;
+    margin-top: 10px;
+}
+
+
+.search{
+  width: 600px;
+  height: 25px;
+
+  border: 2px solid #4D5674; 
+
+  margin-left: -800px;
+  margin-top: 20px;
+  position: absolute;
+}
+
+.searchbar{
+  width: 500px;
+  border-radius: 8px 0 0 8px;
+  border: 0;
+}
+
+form.search button{
+  color: #4D5674;
+  font-size: 15px;
+}
+
+button{
+  border: 0;
+  padding: 0;
+  width: 70px;
+
+  cursor: pointer;
+  height: 25px;
+
+  color: #4D5674;
+  background: transparent; 
+  font-family: 'DM Sans', sans-serif;
+  border-radius: 0 8px 8px 0;
+  border-left: 2px solid #4D5674;
+
+}
+
+/*End of Nav Bar*/
