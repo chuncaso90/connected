@@ -55,9 +55,9 @@ html {
 
 .michael_xButton{
   display: flex;
-  flex-direction: row;
+  justify-content: flex-end;
   /* flex-grow: 1; */
-  min-width: -moz-available;
+  /* min-width: -moz-available; */
 
 }
 
@@ -96,13 +96,15 @@ html {
     flex-grow: 3;
     /* justify-content: center; */
     margin-bottom: 1rem;
+
 }
 
 .michael_img{
     display: flex;
     /* flex-grow: 1; */
     /* justify-content: center; */
-    max-width: -moz-available;
+    width: 500px;
+    height: 341px;
 }
 
 .michael_page_avatar{
