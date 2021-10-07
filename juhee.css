@@ -616,6 +616,7 @@ button{
 /*End of Nav Bar*/
 }
 
+/* min responsive */
 @media only screen and (max-width:400px) {
 
   .juhee_row {
@@ -710,5 +711,43 @@ button{
     border-radius: 50px;
   
   }
+
+  .michael_avatar_img {
+    display: flex;
+    border-radius: 50px;
+    width: 15%;
   
+  }
+
+  .juhee_leftcont{
+    display:flex;
+  }
+  .michael_page_avatar_container01{
+    display:flex;
+    
+  }
+ .michael_page_avatar_container02{
+   display:none;
+ }
+
+ .aliciahome{
+   display:none;
+ }
+ .aliciatrendingposts{
+   text-align: center;
+ }
+
+ .juheediv1 {
+  border-style: solid;
+  border-radius: 15px;
+  border-color: lightblue;
+  border-width: thin;
+  margin-bottom: 5%;
+  padding: 5px;
+ }
+
+.juheethumbsup{
+  display:flex;
+  justify-content: end;
+}
   }
