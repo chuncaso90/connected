@@ -28,7 +28,7 @@ html {
   }
   .juhee_row {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
   }
 
@@ -48,34 +48,34 @@ html {
   }
 
   .left {
-    margin: 25px 0 25px 126px;
+    margin: 3rem 0 3rem 126px;
     border-radius: 22px;
     flex-basis: 13%;
     background-color: #ffff;
   }
   .right {
-    margin: 25px;
+    margin: 3rem;
     border-radius: 22px;
     display: flex;
     flex-basis: 50%;
     background-color: #ffff;
-    min-height: 750px;
+    min-height: 80vh;
     justify-content: center;
     align-items: center;
     overflow: scroll;
   }
   .right1 {
-    margin: 25px 126px 25px 25px;
+    margin: 3rem 126px 25px 25px;
     border-radius: 22px;
     flex-basis: 70%;
     background-color: #ffff;
     /* 확인 필ㅛ */
-    height: 750px;
+    height: 80vh;
     overflow: scroll;
   }
 
   .right2 {
-    margin: 25px 126px 25px 0px;
+    margin: 3rem 126px 25px 0px;
     border-radius: 22px;
     flex-basis: 300px;
     height: 40%;
@@ -94,7 +94,7 @@ Min
     justify-content: space-evenly;
     text-align: left;
     padding-left: 25px;
-    min-height: 750px;
+    min-height: 80vh;
   }
 
   /* #min_categories {
@@ -704,9 +704,45 @@ Min
     border-radius: 0 8px 8px 0;
     border-left: 2px solid #4d5674;
   }
+  /* Min Petition Sidebar*/
 
-  /*End of Nav Bar*/
+  #min_petition_cont {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #min_petition_header {
+    text-align: center;
+    width: 15rem;
+  }
+
+  #min_petition_signedcont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+  }
+
+  #min_petition_input {
+    display: flex;
+    justify-content: center;
+  }
+
+  #min_petition_submit {
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    background-color: #0e1c36;
+  }
+
+  .petition_form {
+    display: flex;
+    width: 15rem;
+    height: 2rem;
+  }
 }
+/*End of Nav Bar*/
 
 /* min responsive */
 @media only screen and (max-width: 400px) {
@@ -887,5 +923,102 @@ Min
   .juheethumbsup {
     display: flex;
     justify-content: end;
+  }
+  #GlianMain {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 1.5rem 3rem 0 0;
+    width: 275px;
+    height: 357px;
+    border-radius: 25px;
+    padding: 1rem;
+  }
+  .michael_img {
+    display: flex;
+    /* justify-content: center; */
+    /* max-width: 100%; */
+    max-height: 15rem;
+    object-fit: cover;
+    object-position: 50% 100%;
+  }
+  #forbutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    border-radius: 30px;
+    padding: 1rem;
+    margin: 2rem;
+    width: 90vw;
+  }
+  .michael_avatar_img {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-radius: 200%;
+    min-width: 3rem;
+    min-height: 3rem;
+    max-width: 3rem;
+    max-height: 3rem;
+  }
+  .michael_page_avatar_container01 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .michael_page_avatar {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  .right2 {
+    border-radius: 22px;
+    width: 90vw;
+    background-color: #ffff;
+    padding: 1rem;
+    margin: 2rem;
+  }
+  .UsernameGlian {
+    width: 100%;
+    flex-direction: row;
+    align-content: flex-start;
+  }
+  #LikeNCommentGlian {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .BoldGlian {
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #333333;
+    margin: 0;
+    flex-grow: 1;
+  }
+
+  .TextGlian {
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333333;
+    margin: 0;
+    flex-grow: 2;
+  }
+
+  .hearts {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    height: 20px;
+    width: 15px;
   }
 }
