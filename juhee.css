@@ -624,11 +624,27 @@ button{
     align-items: center;
     justify-content: space-between;
   }
+
+  #juhee_main {
+    /* max-width: 100vw;
+    min-height: 100vh; */
+    background-color: #0e1c36;
+    /* display: flex;
+    flex-direction: column; */
+  }
+
+  #juhee_main2 {
+    /* max-width: 100vw;
+    min-height: 100vh; */
+    background-color: #3C91E6;
+    /* display: flex;
+    flex-direction: column; */
+  }
   
   
   .header {
     min-height: 10vh;
-    background-color: #fad;
+    background-color: #fff;
     border-radius: 0 0 20px 20px;
   }
   
@@ -655,6 +671,8 @@ button{
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100vw;
+    margin-top: 1rem;
+
     /* align-items: center; */
   }
   
@@ -702,6 +720,8 @@ button{
     border-color: peachpuff;
     border-width: thin;
     margin-bottom: 5%;
+    background-color: #fff;
+    margin: 1rem;
   }
   .aliciacontleft {
     display: flex;
@@ -759,6 +779,7 @@ button{
  }
  .aliciatrendingposts{
    text-align: center;
+   color: #fff;
  }
 
  .juheediv1 {
