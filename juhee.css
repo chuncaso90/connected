@@ -1019,6 +1019,12 @@ Min
     flex-direction: row;
     flex-grow: 1;
     height: 20px;
-    width: 15px;
+    width: 20px;
+  }
+
+  .UsernameGlian {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
   }
 }
